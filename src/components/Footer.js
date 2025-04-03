@@ -38,7 +38,6 @@ const Footer = () => {
               title: "Quick Links",
               links: [
                 { name: "Home", to: "/" },
-                { name: "Marketplace", to: "/listings" },
                 { name: "Dashboard", to: "/dashboard" },
                 { name: "My Profile", to: "/profile" }
               ]
