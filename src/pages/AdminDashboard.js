@@ -142,7 +142,7 @@ const AdminDashboard = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen mt-10 bg-gray-50">
       {/* Mobile header */}
       <div className="lg:hidden bg-white shadow-sm">
         <div className="flex items-center justify-between px-4 py-3">

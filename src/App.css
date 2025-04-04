@@ -6,6 +6,7 @@
 
 .main-content {
   flex: 1;
+  margin-top: 2rem;
 }
 
 
@@ -19,6 +20,7 @@
   top: 0;
   z-index: 100;
   transition: all 0.3s ease;
+  margin-bottom: 2rem;
 }
 
 .navbar-transparent {
@@ -214,6 +216,13 @@
 
 .mobile-menu-item:hover {
   background-color: var(--bg-tertiary);
+}
+
+
+@media (min-width: 768px) {
+  .md-flex {
+    display: flex !important;
+  }
 }
 
 /* Auth pages */
@@ -1010,9 +1019,9 @@
   font-size: 0.75rem;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 /* Add these styles to your existing App.css */
 
