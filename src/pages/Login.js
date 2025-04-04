@@ -49,7 +49,7 @@ const Login = () => {
 
     try {
       await login(email, password)
-      // Redirect will happen automatically due to the useEffect above
+      // Redirect will happen automatically if login is successful
     } catch (err) {
       setError(err.response?.data?.message || "Login failed. Please check your credentials.")
     }
